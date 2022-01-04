@@ -1,5 +1,5 @@
 h1{
-    font-size: 60px italic;
+    font-size: 60px ;
     font-family: 'Times New Roman', Times, serif;
 
 }
@@ -7,4 +7,16 @@ p{
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
 
+}
+.htmlvalidate.json:
+
+{ 
+  "extends" : [ 
+    "html-validate:recommended" 
+  ] , 
+
+  "rules" : { 
+    "close-order" : "error" , 
+    "void" : [ "warn" ,  { "style" : "pomiń" } ] 
+  } 
 }
