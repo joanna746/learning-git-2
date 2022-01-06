@@ -8,15 +8,3 @@ p{
     font-family: 'Times New Roman', Times, serif;
 
 }
-.htmlvalidate.json:
-
-{ 
-  "extends" : [ 
-    "html-validate:recommended" 
-  ] , 
-
-  "rules" : { 
-    "close-order" : "error" , 
-    "void" : [ "warn" ,  { "style" : "pomiń" } ] 
-  } 
-}

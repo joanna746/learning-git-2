@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/joanna746/learning-git-2#readme",
   "devDependencies": {
-    "browser-sync": "^2.27.7"
+    "browser-sync": "^2.27.7",
+    "html-validate": "^6.1.5"
   },
   "dependencies": {
-    "html-validate": "^6.1.5"
+    "html": "^1.0.0",
+    "validate": "^5.1.0"
   }
 }
